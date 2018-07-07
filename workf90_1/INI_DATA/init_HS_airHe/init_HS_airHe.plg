@@ -1,0 +1,109 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: init_HS_airHe - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"D:\workf90_1\BS_STRCT\DIS_CUV\adss_cell.f90"
+"D:\workf90_1\BS_STRCT\grid.f90"
+"D:\workf90_1\BS_OPRT\polynomial.f90"
+"D:\workf90_1\BS_OPRT\tools.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\gif_cell.f90"
+"D:\workf90_1\BS_STRCT\SOLU\data_ext.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\EULER\euler_functions.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\EULER\eulernew.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\pif_cell.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\crit_info.f90"
+"D:\workf90_1\BS_STRCT\SL_SMTH\sh_sths.f90"
+"D:\workf90_1\BS_STRCT\SL_SMTH\solution_smooth.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\crit_cell.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\discontinuity_curve.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\fif_cell.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\auxi_cc.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cv1.f90"
+"D:\workf90_1\BS_STRCT\grid_map.f90"
+"D:\workf90_1\BS_STRCT\NODE\nd_ring.f90"
+"D:\workf90_1\BS_STRCT\NODE\nd_cls.f90"
+"D:\workf90_1\BS_STRCT\SOLU\solution.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\interface\outputs_euler1.f90"
+"D:\workf90_1\BS_OPRT\REST_CV\Fun_use.f90"
+"D:\workf90_1\BS_OPRT\Num_int.f90"
+"D:\workf90_1\BS_OPRT\Num_int2.f90"
+"D:\workf90_1\INI_DATA\init_HS_airHe\FORM_SL1.f90"
+"D:\workf90_1\INI_DATA\init_HS_airHe\init_HS_airHe.f90"
+]
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP94.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/init_HS_airHe.pdb" /debug /machine:I386 /out:"Debug/init_HS_airHe.exe" /pdbtype:sept 
+.\Debug\adss_cell.obj
+.\Debug\auxi_cc.obj
+.\Debug\Auxi_cv1.obj
+.\Debug\crit_cell.obj
+.\Debug\crit_info.obj
+.\Debug\data_ext.obj
+.\Debug\discontinuity_curve.obj
+.\Debug\euler_functions.obj
+.\Debug\eulernew.obj
+.\Debug\fif_cell.obj
+.\Debug\FORM_SL1.obj
+.\Debug\Fun_use.obj
+.\Debug\gif_cell.obj
+.\Debug\grid.obj
+.\Debug\grid_map.obj
+.\Debug\init_HS_airHe.obj
+.\Debug\nd_cls.obj
+.\Debug\nd_ring.obj
+.\Debug\Num_int.obj
+.\Debug\Num_int2.obj
+.\Debug\outputs_euler1.obj
+.\Debug\pif_cell.obj
+.\Debug\polynomial.obj
+.\Debug\sh_sths.obj
+.\Debug\solution.obj
+.\Debug\solution_smooth.obj
+.\Debug\tools.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP94.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\workf90_1\BS_STRCT\DIS_CUV\adss_cell.f90
+D:\workf90_1\BS_STRCT\grid.f90
+D:\workf90_1\BS_OPRT\polynomial.f90
+D:\workf90_1\BS_OPRT\tools.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\gif_cell.f90
+D:\workf90_1\BS_STRCT\SOLU\data_ext.f90
+D:\workf90_1\MAIN_ITF\main_euler\EULER\euler_functions.f90
+D:\workf90_1\MAIN_ITF\main_euler\EULER\eulernew.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\pif_cell.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\crit_info.f90
+D:\workf90_1\BS_STRCT\SL_SMTH\sh_sths.f90
+D:\workf90_1\BS_STRCT\SL_SMTH\solution_smooth.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\crit_cell.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\discontinuity_curve.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\fif_cell.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\auxi_cc.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cv1.f90
+D:\workf90_1\BS_STRCT\grid_map.f90
+D:\workf90_1\BS_STRCT\NODE\nd_ring.f90
+D:\workf90_1\BS_STRCT\NODE\nd_cls.f90
+D:\workf90_1\BS_STRCT\SOLU\solution.f90
+D:\workf90_1\MAIN_ITF\main_euler\interface\outputs_euler1.f90
+D:\workf90_1\BS_OPRT\REST_CV\Fun_use.f90
+D:\workf90_1\BS_OPRT\Num_int.f90
+D:\workf90_1\BS_OPRT\Num_int2.f90
+D:\workf90_1\INI_DATA\init_HS_airHe\FORM_SL1.f90
+D:\workf90_1\INI_DATA\init_HS_airHe\init_HS_airHe.f90
+Linking...
+
+
+
+<h3>Results</h3>
+init_HS_airHe.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{779B0187-2DAD-405A-8D6D-58BB12C6067C}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" OpenMP="OpenMPSequentialCode" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\adss_cell.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cc.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cv1.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\REG_CUV\crit_cell.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\crit_info.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SOLU\Data_ext.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\REG_CUV\discontinuity_curve.f90"/>
+		<File RelativePath="..\..\..\MAIN_ITF\main_euler\EULER\euler_functions.f90"/>
+		<File RelativePath="..\..\..\MAIN_ITF\main_euler\EULER\eulernew.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\AUXI_CUV\Fif_cell.f90"/>
+		<File RelativePath="..\FORM_SL_MD.F90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Fun_use.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\Gif_cell.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\Grid.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\Grid_map.f90"/>
+		<File RelativePath="..\init_RM_peng_modified.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\NODE\Nd_cls.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\NODE\Nd_ring.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Num_int.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Num_int2.f90"/>
+		<File RelativePath="..\..\..\MAIN_ITF\main_euler\interface\outputs_euler1.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\Pif_cell.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Ploynml.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SL_SMTH\Sh_sths.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SOLU\Solution.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SL_SMTH\solution_smooth.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Tools.f90"/></Filter>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>

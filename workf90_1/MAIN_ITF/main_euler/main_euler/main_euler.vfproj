@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{1D29CBE2-41BD-4580-AC64-3961AC583291}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Interfaces="true" OpenMP="OpenMPParallelCode" WarnInterfaces="true" Traceback="true" BoundsCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" OpenMP="OpenMPParallelCode"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\adss_cell.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cc.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\PRC_AUXI\Auxi_ccp.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cv1.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\PRC_AUXI\Auxi_cvp.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\BOUNDARY\Bd_posi.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\BOUNDARY\boundary_conditions.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Bs_var.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Chk_rmv.f90"/>
+		<File RelativePath="..\PHYS_FLX\PHY_UPDT\Clean_up6.f90"/>
+		<File RelativePath="..\PHYS_FLX\PHY_UPDT\Comlids.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Comp_can.f90"/>
+		<File RelativePath="..\interface\comp_circ_HS.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Comp_dpn.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_STH\comp_in_smooth.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Comp_nd.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\comp_on_cvn.f90"/>
+		<File RelativePath="..\interface\compute_growth_rate.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Contrip.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\REG_CUV\crit_cell.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\crit_info.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SOLU\Data_ext.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Data_pre.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\Dis_jntn.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\REG_CUV\discontinuity_curve.f90"/>
+		<File RelativePath="..\EULER\euler_functions.f90"/>
+		<File RelativePath="..\EULER\eulernew.f90"/>
+		<File RelativePath="..\PHYS_FLX\PHY_UPDT\Eva_sts.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\AUXI_CUV\Fif_cell.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Fix_cnnt.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Fix_recv.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Fix_trip.f90"/>
+		<File RelativePath="..\PHYS_FLX\weno\flux_function_weno2.f90"/>
+		<File RelativePath="..\PHYS_FLX\weno\flux_weno.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Form_dsv.f90"/>
+		<File RelativePath="..\..\..\INI_DATA\fs_boun_cond.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Fun_use.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\Gif_cell.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\Grid.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\Grid_map.f90"/>
+		<File RelativePath="..\H_stp_eul.f90"/>
+		<File RelativePath="..\..\..\INI_DATA\init_HS_airHe\HS1d_bond_cond.f90"/>
+		<File RelativePath="..\..\..\INI_DATA\init_HS_airHe\HS_boun_cond.f90"/>
+		<File RelativePath="..\interface\inputs_euler1.f90"/>
+		<File RelativePath="..\..\..\TOOLS\Interpl.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\PRC_AUXI\Isl_fix.f90"/>
+		<File RelativePath="..\..\..\INI_DATA\init_RM_peng\Jacobs_boun_cond1.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Locl_fix.f90"/>
+		<File RelativePath="..\..\Main.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\manipulate\Manipu_3.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\manipulate\Manipu_4.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Merge_ck.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\mesh_ratio\Mesh_rt.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\BOUNDARY\Mv_all.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\NODE\Nd_cls.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Nd_mvsp.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\Nd_proc1.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\Nd_proc2.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\NODE\Nd_ring.f90"/>
+		<File RelativePath="..\PHYS_FLX\PHY_UPDT\NS_diffusion.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Num_int.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Num_int2.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\num_regular5.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\num_regular_partn5.f90"/>
+		<File RelativePath="..\interface\out_mdl_euler.f90"/>
+		<File RelativePath="..\interface\output_for_show_euler.f90"/>
+		<File RelativePath="..\interface\outputs_euler1.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\packed_separate.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Pick_dp.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Pick_mdp.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\DIS_CUV\Pif_cell.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Ploynml.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Polyin.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\Pro_lcl.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Pro_smnd.f90"/>
+		<File RelativePath="..\PHYS_FLX\Proc_pln.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Rcv_mpne3.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Reset.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\COMP_CV\Restr_dp.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\rev_cvs.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Rm_b_crn.f90"/>
+		<File RelativePath="..\..\..\INI_DATA\Init_RM_Benjamin\rm_boun_cond.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Rm_cons.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Rmv_tgls.f90"/>
+		<File RelativePath="..\save_growth_rate.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\SCAN\Sc_conls.f90"/>
+		<File RelativePath="..\EULER\Sh_sths.f90"/>
+		<File RelativePath="..\interface\sh_sts_el_HR.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\smooth_curves3.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SOLU\Solu_com.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SOLU\Solution.f90"/>
+		<File RelativePath="..\..\..\BS_STRCT\SL_SMTH\solution_smooth.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\Tools.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Tools_ct.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\tools_rtn2.f90"/>
+		<File RelativePath="..\EULER\Trip_er.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\INTERACT\ND_MVSPL\Trt_trpl.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Upd_cvs.f90"/>
+		<File RelativePath="..\PHYS_FLX\PHY_UPDT\Updat_lr.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\Updcvcas.f90"/>
+		<File RelativePath="..\..\..\BS_OPRT\REST_CV\updcvcas_1n.f90"/></Filter>
+		<File RelativePath=".\ReadMe.txt"/></Files>
+	<Globals/></VisualStudioProject>

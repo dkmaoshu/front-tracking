@@ -1,0 +1,72 @@
+%	program Growth_rate
+
+%  load d:\workf90_1\output\grt.dat; 
+%  load d:\workf90_1\output\cur_t.dat;
+% 	x3=cur_t;
+% 	y3=grt;
+% 	plot(x3,y3,'b');
+	
+load d:\workf90_1\output\bubble.dat
+load d:\workf90_1\output\spike.dat
+load d:\workf90_1\output\cur_t.dat
+
+ x1=cur_t;
+ y1=bubble(:,1);
+ y2=bubble(:,2);
+ y3=bubble(:,4);
+
+ z1=spike(:,1);
+ z2=spike(:,2);
+ z3=spike(:,4);
+
+ yb=y1+y3*.(y1-y2);
+ zs=z1+z3*.(z1-z2);
+
+ %Gr means growth rate
+ gr=0.5*(zs-yb);
+ x1=10*10^(0.5)*x1
+ gr=1008
+%-----------------------------------
+% Program growth rate
+   load d:\workf90_1\output\initgrs.dat
+   load d:\workf90_1\output\initgrb.dat
+   load d:\workf90_1\output\initti.dat
+   x1=initti
+   y1=initgrs (:,1);
+   y2=initgrs (:,2);
+   y3=initgrs (:,4);
+   z1=initgrb (:,1);
+   z2=initgrb (:,2);
+   z3=initgrb (:,4);
+   y4=y3.*(y2-y1)+y1;
+   z4=z3.*(z2-z1)+z1;
+   g1=0.5*(y4-z4);
+   x1=10*10^(0.5)*x1-20.0;
+   g1=100*10^(0.5)*g1;
+   
+   
+   
+   plot (x1,g1,'g');
+   hold on;
+
+%   axis equal tight
+%   axis ([0.0,9.66,-0.5,0.1]);
+%   axis ([0.275,0.325,0.45,0.50])
+%   axis ([0.60,0.70,0.40,0.50]);
+%   axis ([0.0,1.0,-0.1,0.9]);
+   axis ([0.0,300,-60.0,0.0]);
+   axis ('square');
+%   hold off;
+    hold on;
+%-------------------------------------
+y=0.5*(y6+y7);
+ x3=cur_t;
+
+plot(x3,y,'b')
+  
+% axis([0.0,1.0,-1.0,1.0]);
+%  Air-SF6  %
+%axis([0.02,30.00,-0.06,0.06]);
+axis([0.02,28.00,-0.02,0.06]);
+ 
+ 

@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: accuracy_3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\admin\LOCALS~1\Temp\RSP132.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"D:\workf90_1\BS_STRCT\DIS_CUV\adss_cell.f90"
+"D:\workf90_1\BS_STRCT\Grid.f90"
+"D:\workf90_1\BS_STRCT\SOLU\Data_ext.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\EULER\euler_functions.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\EULER\Eulern.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\Pif_cell.f90"
+"D:\workf90_1\BS_OPRT\polynomial.f90"
+"D:\workf90_1\BS_OPRT\Tools.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\Gif_cell.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\crit_info.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\EULER\Sh_sths.f90"
+"D:\workf90_1\BS_STRCT\SL_SMTH\solution_smooth.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\crit_cell.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\discontinuity_curve.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Fif_cell.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cc.f90"
+"D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cv.f90"
+"D:\workf90_1\BS_STRCT\Grid_map.f90"
+"D:\workf90_1\BS_STRCT\NODE\Nd_ring.f90"
+"D:\workf90_1\BS_STRCT\NODE\Nd_cls.f90"
+"D:\workf90_1\BS_STRCT\SOLU\Solution.f90"
+"D:\workf90_1\MAIN_ITF\main_euler\interface\inputs_euler.f90"
+"D:\workf90_1\accuracy_check\accuracy_check3\inputf.f90"
+"D:\workf90_1\accuracy_check\accuracy_check3\accuracy_check3.f90"
+]
+Creating temporary file "C:\DOCUME~1\admin\LOCALS~1\Temp\RSP133.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/accuracy_check3.pdb" /debug /machine:I386 /out:"Debug/accuracy_check3.exe" /pdbtype:sept 
+.\Debug\accuracy_check3.obj
+.\Debug\adss_cell.obj
+.\Debug\Auxi_cc.obj
+.\Debug\Auxi_cv.obj
+.\Debug\crit_cell.obj
+.\Debug\crit_info.obj
+.\Debug\Data_ext.obj
+.\Debug\discontinuity_curve.obj
+.\Debug\euler_functions.obj
+.\Debug\Eulern.obj
+.\Debug\Fif_cell.obj
+.\Debug\Gif_cell.obj
+.\Debug\Grid.obj
+.\Debug\Grid_map.obj
+.\Debug\inputf.obj
+.\Debug\inputs_euler.obj
+.\Debug\Nd_cls.obj
+.\Debug\Nd_ring.obj
+.\Debug\Pif_cell.obj
+.\Debug\polynomial.obj
+.\Debug\Sh_sths.obj
+.\Debug\Solution.obj
+.\Debug\solution_smooth.obj
+.\Debug\Tools.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\admin\LOCALS~1\Temp\RSP133.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\workf90_1\BS_STRCT\DIS_CUV\adss_cell.f90
+D:\workf90_1\BS_STRCT\Grid.f90
+D:\workf90_1\BS_STRCT\SOLU\Data_ext.f90
+D:\workf90_1\MAIN_ITF\main_euler\EULER\euler_functions.f90
+D:\workf90_1\MAIN_ITF\main_euler\EULER\Eulern.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\Pif_cell.f90
+D:\workf90_1\BS_OPRT\polynomial.f90
+D:\workf90_1\BS_OPRT\Tools.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\Gif_cell.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\crit_info.f90
+D:\workf90_1\MAIN_ITF\main_euler\EULER\Sh_sths.f90
+D:\workf90_1\BS_STRCT\SL_SMTH\solution_smooth.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\crit_cell.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\REG_CUV\discontinuity_curve.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Fif_cell.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cc.f90
+D:\workf90_1\BS_STRCT\DIS_CUV\AUXI_CUV\Auxi_cv.f90
+D:\workf90_1\BS_STRCT\Grid_map.f90
+D:\workf90_1\BS_STRCT\NODE\Nd_ring.f90
+D:\workf90_1\BS_STRCT\NODE\Nd_cls.f90
+D:\workf90_1\BS_STRCT\SOLU\Solution.f90
+D:\workf90_1\MAIN_ITF\main_euler\interface\inputs_euler.f90
+D:\workf90_1\accuracy_check\accuracy_check3\inputf.f90
+D:\workf90_1\accuracy_check\accuracy_check3\accuracy_check3.f90
+Linking...
+
+
+
+<h3>Results</h3>
+accuracy_check3.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,44 @@
+%	program showp
+
+   load d:\workf90_1\show\shown.dat;
+   load d:\workf90_1\show\showm.dat;
+   n=shown;
+   m=showm;
+   nx=n(3)+n(5)-1;
+   ny=n(4)+n(6)-1;
+   h=n(1)/(n(5)-1);
+   a=ny*h;
+   b=0.5*shown(1);
+      
+   for i=n(4):ny
+ 	  x29(1)= -5.; x29(2)=5.;
+ 	  y29(1)=(i+0.5)*h ; y29(2)=(i+0.5)*h;
+ 	  plot(x29,y29,'r'); hold on;
+   end;
+   for j=n(3):nx
+      x30(1)=(j+0.5)*h ; x30(2)=(j+0.5)*h;
+ 	  y30(1)=-5. ; y30(2)=5.; hold on
+ 	  plot(x30,y30,'r');
+   end;
+ 
+	load d:\workf90_1\show\showdc1.dat;
+	x3=showdc1(:,1);
+	y3=showdc1(:,2);
+	plot(x3,y3,'black','linewidth',1);
+	hold on;
+    
+    load d:\workf90_1\show\showdc2.dat;
+	x4=showdc2(:,1);
+	y4=showdc2(:,2);
+	plot(x4,y4,'black','linewidth',1);
+	hold on;    
+
+   axis equal tight
+%   axis([-0.11125,0.0,0.05,0.16125]);
+   axis([-b,b,-a,a]);
+%   axis([-2.225,2.225,-0.455,0.445])
+%   axis([0.0,0.11125,-0.2225,-0.11125]);
+%   axis([-0.445,-0.2225,0.0,0.2225]);
+%   axis([-0.11125,0.0,-0.2225,-0.11125]);
+
+   hold off;
